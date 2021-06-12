@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        app:navigationIcon="@drawable/ic_back"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="ATM"
+        app:titleMarginStart="120dp">
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iv_gambar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/bca"/>
+
+            <TextView
+                android:id="@+id/tv_judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BCA"
+                android:layout_marginTop="16dp"
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/iv_gambar"
+                android:layout_toEndOf="@+id/iv_gambar"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iv_gambar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/mandiri"/>
+
+            <TextView
+                android:id="@+id/tv_judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mandiri"
+                android:layout_marginTop="16dp"
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/iv_gambar"
+                android:layout_toEndOf="@+id/iv_gambar"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iv_gambar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/bni"/>
+
+            <TextView
+                android:id="@+id/tv_judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BNI"
+                android:layout_marginTop="16dp"
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/iv_gambar"
+                android:layout_toEndOf="@+id/iv_gambar"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iv_gambar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/cimb"/>
+
+            <TextView
+                android:id="@+id/tv_judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CIMB Niaga"
+                android:layout_marginTop="16dp"
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/iv_gambar"
+                android:layout_toEndOf="@+id/iv_gambar"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iv_gambar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/muamalat"/>
+
+            <TextView
+                android:id="@+id/tv_judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muamalat"
+                android:layout_marginTop="16dp"
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/iv_gambar"
+                android:layout_toEndOf="@+id/iv_gambar"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/iv_gambar"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/mega"/>
+
+            <TextView
+                android:id="@+id/tv_judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bank Mega"
+                android:layout_marginTop="16dp"
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/iv_gambar"
+                android:layout_toEndOf="@+id/iv_gambar"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
